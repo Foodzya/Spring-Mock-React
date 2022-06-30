@@ -5,12 +5,34 @@ body {
 
 .spring {
 	max-width: 130%;
-	height:50px;
+	height: 50px;
+}
+
+input.flex-search-bar {
+	display: flex;
+	max-width: 50%;
+	justify-content: center;
+    margin: 0 auto;
+    position: relative;
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+}
+
+.no-elements-found {
+	display: flex;
+	max-width: 50%;
+	justify-content: center;
+    margin: 0 auto;
+    position: relative;
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 25px;
 }
 
 .pageHeader {
-	border-bottom:1px solid #ccc;
-	
+	border-bottom: 1px solid #ccc;
+
 }
 
 .flex-top-menu {
@@ -35,7 +57,7 @@ body {
 	margin-bottom: 3px;
 	padding: 3px;
 	transform: rotate(45deg);
-  }
+}
 
 div.menu-elements {
 	background-color: white;
@@ -45,10 +67,10 @@ div.menu-elements {
 	font-size: 100%;
 	font-weight: bold;
 	display: flex;
-    justify-content: flex-end;
+	justify-content: flex-end;
 	gap: 20px;
 	flex-grow: 1;
-	font-family: Metropolis,sans-serif;
+	font-family: Metropolis, sans-serif;
 }
 
 ul.submenu {
@@ -62,7 +84,7 @@ li.menu-subelements {
 }
 
 li.menu-subelements:hover {
-	color:#A6F1A6;
+	color: #A6F1A6;
 }
 
 .dropdown {
@@ -77,7 +99,7 @@ li.menu-subelements:hover {
 	background-color: #f9f9f9;
 	width: 150px;
 	white-space: nowrap;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	padding: 5px 30px 10px 60px;
 	cursor: pointer;
 	z-index: 1;
@@ -87,16 +109,12 @@ li.menu-subelements:hover {
 	display: block;
 }
 
-.spring-image {
-	background-image:url("assets/OG-Spring.png");
-}
-
 h1.landing-header {
 	font-size: 3.75rem;
-    line-height: 1em;
+	line-height: 1em;
 	max-width: fit-content;
 	font-family: "Metropolis", sans-serif;
-	transform-origin: 100% 50%;	
+	transform-origin: 100% 50%;
 	font-weight: 700;
 }
 
@@ -104,22 +122,22 @@ p.landing-paragraph {
 	max-width: 930px;
 	font-size: 1.5rem;
 	line-height: 1.7em;
-    font-weight: normal;
-	font-family: Metropolis,sans-serif;
+	font-weight: normal;
+	font-family: Metropolis, sans-serif;
 	margin-top: 10px;
 	overflow-wrap: break-word;
 }
 
 div.landing-container {
 	max-width: 1140px;
-    margin: 0 auto;
+	margin: 0 auto;
 	position: relative;
 }
 
 h2.page-element-header {
 	font-size: 1.1rem;
-	font-family: Metropolis,sans-serif;
-    font-weight: bold;
+	font-family: Metropolis, sans-serif;
+	font-weight: bold;
 	margin-top: 1px;
 }
 
@@ -130,7 +148,8 @@ div.page-container {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0 auto;	
+	margin: 0 auto;
+	margin-top: 15px;
 }
 
 p.page-element-text {
@@ -138,19 +157,19 @@ p.page-element-text {
 	font-size: 0.7rem;
 	font-weight: 400;
 	line-height: 1.7em;
-	font-family: Metropolis,sans-serif;
+	font-family: Metropolis, sans-serif;
 	display: block;
 	margin-top: 15px;
 	overflow-wrap: break-word;
 }
 
 a.whitebox-page-element {
-	transition: all .2s,transform .2s;
-    transform: translateY(0);
-    position: relative;
-    box-shadow: none;
+	transition: all .2s, transform .2s;
+	transform: translateY(0);
+	position: relative;
+	box-shadow: none;
 	margin: 8px;
-    top: 1;
+	top: 1;
 	box-sizing: border-box;
 	border-radius: 5px;
 	border: 1px solid #d9e9e9;
@@ -160,10 +179,11 @@ a.whitebox-page-element {
 	cursor: pointer;
 }
 
-.whitebox-page-element:focus, .whitebox-page-element:hover {
+.whitebox-page-element:focus,
+.whitebox-page-element:hover {
 	transform: translateY(-3px);
 	top: -3px;
-	box-shadow: 0 10px 20px 0 rgba(108,135,135,.2);
+	box-shadow: 0 10px 20px 0 rgba(108, 135, 135, .2);
 }
 
 div.page-element {
@@ -176,9 +196,9 @@ div.page-element {
 }
 
 img.page-image {
-	max-width:100%;
-	height:40px;
-	margin-top:10px;
+	max-width: 100%;
+	height: 40px;
+	margin-top: 10px;
 }
 
 div.content {
